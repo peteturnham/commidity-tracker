@@ -1,0 +1,902 @@
+[
+  {
+    "commodity": "cement",
+    "location": "Kanthan",
+    "latitude": 4.77,
+    "longitude": 101.12,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XSWX:LG"
+  },
+  {
+    "commodity": "cement",
+    "location": "Kanthan",
+    "latitude": 4.77,
+    "longitude": 101.12,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XPAR:795009"
+  },
+  {
+    "commodity": "cement",
+    "location": "Kanthan",
+    "latitude": 4.77,
+    "longitude": 101.12,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XPAR:LGNV"
+  },
+  {
+    "commodity": "cement",
+    "location": "Kanthan",
+    "latitude": 4.77,
+    "longitude": 101.12,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "LTS:0R9N"
+  },
+  {
+    "commodity": "cement",
+    "location": "Kedah",
+    "latitude": 6,
+    "longitude": 100.67,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XSWX:LG"
+  },
+  {
+    "commodity": "cement",
+    "location": "Kedah",
+    "latitude": 6,
+    "longitude": 100.67,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XPAR:795009"
+  },
+  {
+    "commodity": "cement",
+    "location": "Kedah",
+    "latitude": 6,
+    "longitude": 100.67,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XPAR:LGNV"
+  },
+  {
+    "commodity": "cement",
+    "location": "Kedah",
+    "latitude": 6,
+    "longitude": 100.67,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "LTS:0R9N"
+  },
+  {
+    "commodity": "cement",
+    "location": "Langkawi",
+    "latitude": 6.32,
+    "longitude": 99.85,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XSWX:LG"
+  },
+  {
+    "commodity": "cement",
+    "location": "Langkawi",
+    "latitude": 6.32,
+    "longitude": 99.85,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XPAR:795009"
+  },
+  {
+    "commodity": "cement",
+    "location": "Langkawi",
+    "latitude": 6.32,
+    "longitude": 99.85,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XPAR:LGNV"
+  },
+  {
+    "commodity": "cement",
+    "location": "Langkawi",
+    "latitude": 6.32,
+    "longitude": 99.85,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "LTS:0R9N"
+  },
+  {
+    "commodity": "cement",
+    "location": "Pasir Gudang, Johor",
+    "latitude": 4.77,
+    "longitude": 101.12,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XSWX:LG"
+  },
+  {
+    "commodity": "cement",
+    "location": "Pasir Gudang, Johor",
+    "latitude": 4.77,
+    "longitude": 101.12,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XPAR:795009"
+  },
+  {
+    "commodity": "cement",
+    "location": "Pasir Gudang, Johor",
+    "latitude": 4.77,
+    "longitude": 101.12,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XPAR:LGNV"
+  },
+  {
+    "commodity": "cement",
+    "location": "Pasir Gudang, Johor",
+    "latitude": 4.77,
+    "longitude": 101.12,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "LTS:0R9N"
+  },
+  {
+    "commodity": "cement",
+    "location": "Perak",
+    "latitude": 1.43,
+    "longitude": 103.92,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XSWX:LG"
+  },
+  {
+    "commodity": "cement",
+    "location": "Perak",
+    "latitude": 1.43,
+    "longitude": 103.92,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XPAR:795009"
+  },
+  {
+    "commodity": "cement",
+    "location": "Perak",
+    "latitude": 1.43,
+    "longitude": 103.92,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XPAR:LGNV"
+  },
+  {
+    "commodity": "cement",
+    "location": "Perak",
+    "latitude": 1.43,
+    "longitude": 103.92,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "LTS:0R9N"
+  },
+  {
+    "commodity": "cement",
+    "location": "Rawang, Selangor",
+    "latitude": 3.32,
+    "longitude": 101.57,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XSWX:LG"
+  },
+  {
+    "commodity": "cement",
+    "location": "Rawang, Selangor",
+    "latitude": 3.32,
+    "longitude": 101.57,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XPAR:795009"
+  },
+  {
+    "commodity": "cement",
+    "location": "Rawang, Selangor",
+    "latitude": 3.32,
+    "longitude": 101.57,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "XPAR:LGNV"
+  },
+  {
+    "commodity": "cement",
+    "location": "Rawang, Selangor",
+    "latitude": 3.32,
+    "longitude": 101.57,
+    "Company": "Lafarge SA",
+    "Industry": "Building Materials",
+    "Ticker": "LTS:0R9N"
+  },
+  {
+    "commodity": "cement",
+    "location": "Bintulu, Sarawak",
+    "latitude": 3.15,
+    "longitude": 113.09,
+    "Company": "Cahya Mata Sarawak Bhd",
+    "Industry": "Building Materials",
+    "Ticker": "XKLS:2852"
+  },
+  {
+    "commodity": "cement",
+    "location": "Bintulu, Sarawak",
+    "latitude": 3.15,
+    "longitude": 113.09,
+    "Company": "Cahya Mata Sarawak Bhd",
+    "Industry": "Building Materials",
+    "Ticker": "OTCPK:CHYMF"
+  },
+  {
+    "commodity": "cement",
+    "location": "Kuching, Sarawak",
+    "latitude": 1.52,
+    "longitude": 110.4,
+    "Company": "Cahya Mata Sarawak Bhd",
+    "Industry": "Building Materials",
+    "Ticker": "XKLS:2852"
+  },
+  {
+    "commodity": "cement",
+    "location": "Kuching, Sarawak",
+    "latitude": 1.52,
+    "longitude": 110.4,
+    "Company": "Cahya Mata Sarawak Bhd",
+    "Industry": "Building Materials",
+    "Ticker": "OTCPK:CHYMF"
+  },
+  {
+    "commodity": "gold: ore, au content",
+    "location": "",
+    "latitude": 42.78,
+    "longitude": 76.68,
+    "Company": "Centerra Gold Inc",
+    "Industry": "Gold",
+    "Ticker": "TSX:CG"
+  },
+  {
+    "commodity": "gold: ore, au content",
+    "location": "",
+    "latitude": 42.78,
+    "longitude": 76.68,
+    "Company": "Centerra Gold Inc",
+    "Industry": "Gold",
+    "Ticker": "FRA:GOU"
+  },
+  {
+    "commodity": "gold: ore, au content",
+    "location": "",
+    "latitude": 42.78,
+    "longitude": 76.68,
+    "Company": "Centerra Gold Inc",
+    "Industry": "Gold",
+    "Ticker": "STU:GOU"
+  },
+  {
+    "commodity": "gold: ore, au content",
+    "location": "",
+    "latitude": 42.78,
+    "longitude": 76.68,
+    "Company": "Centerra Gold Inc",
+    "Industry": "Gold",
+    "Ticker": "LTS:0UP5"
+  },
+  {
+    "commodity": "gold: ore, au content",
+    "location": "",
+    "latitude": 42.78,
+    "longitude": 76.68,
+    "Company": "Centerra Gold Inc",
+    "Industry": "Gold",
+    "Ticker": "NYSE:CGAU"
+  },
+  {
+    "commodity": "gold: ore",
+    "location": "Sughd Oblast'",
+    "latitude": 39.32,
+    "longitude": 68.65,
+    "Company": "Avocet Mining PLC",
+    "Industry": "Gold",
+    "Ticker": "FRA:MQFA"
+  },
+  {
+    "commodity": "gold: ore",
+    "location": "Sughd Oblast'",
+    "latitude": 39.32,
+    "longitude": 68.65,
+    "Company": "Avocet Mining PLC",
+    "Industry": "Gold",
+    "Ticker": "STU:MQFA"
+  },
+  {
+    "commodity": "gold: ore",
+    "location": "Sughd Oblast'",
+    "latitude": 39.32,
+    "longitude": 68.65,
+    "Company": "Avocet Mining PLC",
+    "Industry": "Gold",
+    "Ticker": "LSE:AVM"
+  },
+  {
+    "commodity": "gold: ore",
+    "location": "Sughd Oblast'",
+    "latitude": 39.32,
+    "longitude": 68.65,
+    "Company": "Avocet Mining PLC",
+    "Industry": "Gold",
+    "Ticker": "CHIX:AVML"
+  },
+  {
+    "commodity": "gold: ore",
+    "location": "Sughd Oblast'",
+    "latitude": 39.32,
+    "longitude": 68.65,
+    "Company": "Avocet Mining PLC",
+    "Industry": "Gold",
+    "Ticker": "OSL:AVM"
+  },
+  {
+    "commodity": "gold: ore",
+    "location": "Sughd Oblast'",
+    "latitude": 39.32,
+    "longitude": 68.65,
+    "Company": "Avocet Mining PLC",
+    "Industry": "Gold",
+    "Ticker": "OSTO:AVMo"
+  },
+  {
+    "commodity": "gold: ore",
+    "location": "Sughd Oblast'",
+    "latitude": 39.32,
+    "longitude": 68.65,
+    "Company": "Avocet Mining PLC",
+    "Industry": "Gold",
+    "Ticker": "GREY:AVVGF"
+  },
+  {
+    "commodity": "gold: ore",
+    "location": "Sughd Oblast'",
+    "latitude": 39.32,
+    "longitude": 68.65,
+    "Company": "Avocet Mining PLC",
+    "Industry": "Gold",
+    "Ticker": "OTCPK:AVVGY"
+  },
+  {
+    "commodity": "copper: concentrate, cu content",
+    "location": "Chelopech",
+    "latitude": 42.7,
+    "longitude": 24.07,
+    "Company": "Dundee Precious Metals Inc",
+    "Industry": "Gold",
+    "Ticker": "TSX:DPM"
+  },
+  {
+    "commodity": "copper: concentrate, cu content",
+    "location": "Chelopech",
+    "latitude": 42.7,
+    "longitude": 24.07,
+    "Company": "Dundee Precious Metals Inc",
+    "Industry": "Gold",
+    "Ticker": "FRA:DPU"
+  },
+  {
+    "commodity": "copper: concentrate, cu content",
+    "location": "Chelopech",
+    "latitude": 42.7,
+    "longitude": 24.07,
+    "Company": "Dundee Precious Metals Inc",
+    "Industry": "Gold",
+    "Ticker": "STU:DPU"
+  },
+  {
+    "commodity": "copper: concentrate, cu content",
+    "location": "Chelopech",
+    "latitude": 42.7,
+    "longitude": 24.07,
+    "Company": "Dundee Precious Metals Inc",
+    "Industry": "Gold",
+    "Ticker": "OTCPK:DPMLF"
+  },
+  {
+    "commodity": "copper: concentrate, cu content",
+    "location": "Chelopech",
+    "latitude": 42.7,
+    "longitude": 24.07,
+    "Company": "Dundee Precious Metals Inc",
+    "Industry": "Gold",
+    "Ticker": "TSX:DPM"
+  },
+  {
+    "commodity": "copper: concentrate, cu content",
+    "location": "Chelopech",
+    "latitude": 42.7,
+    "longitude": 24.07,
+    "Company": "Dundee Precious Metals Inc",
+    "Industry": "Gold",
+    "Ticker": "FRA:DPU"
+  },
+  {
+    "commodity": "copper: concentrate, cu content",
+    "location": "Chelopech",
+    "latitude": 42.7,
+    "longitude": 24.07,
+    "Company": "Dundee Precious Metals Inc",
+    "Industry": "Gold",
+    "Ticker": "STU:DPU"
+  },
+  {
+    "commodity": "copper: concentrate, cu content",
+    "location": "Chelopech",
+    "latitude": 42.7,
+    "longitude": 24.07,
+    "Company": "Dundee Precious Metals Inc",
+    "Industry": "Gold",
+    "Ticker": "OTCPK:DPMLF"
+  },
+  {
+    "commodity": "phosphate: apatite",
+    "location": "Siilinjarvi",
+    "latitude": 63.1,
+    "longitude": 27.7,
+    "Company": "Yara International ASA",
+    "Industry": "Agricultural Inputs",
+    "Ticker": "XSWX:YAR"
+  },
+  {
+    "commodity": "phosphate: apatite",
+    "location": "Siilinjarvi",
+    "latitude": 63.1,
+    "longitude": 27.7,
+    "Company": "Yara International ASA",
+    "Industry": "Agricultural Inputs",
+    "Ticker": "FRA:IU2"
+  },
+  {
+    "commodity": "phosphate: apatite",
+    "location": "Siilinjarvi",
+    "latitude": 63.1,
+    "longitude": 27.7,
+    "Company": "Yara International ASA",
+    "Industry": "Agricultural Inputs",
+    "Ticker": "STU:IU2"
+  },
+  {
+    "commodity": "phosphate: apatite",
+    "location": "Siilinjarvi",
+    "latitude": 63.1,
+    "longitude": 27.7,
+    "Company": "Yara International ASA",
+    "Industry": "Agricultural Inputs",
+    "Ticker": "XTER:IU2"
+  },
+  {
+    "commodity": "phosphate: apatite",
+    "location": "Siilinjarvi",
+    "latitude": 63.1,
+    "longitude": 27.7,
+    "Company": "Yara International ASA",
+    "Industry": "Agricultural Inputs",
+    "Ticker": "LTS:0O7D"
+  },
+  {
+    "commodity": "phosphate: apatite",
+    "location": "Siilinjarvi",
+    "latitude": 63.1,
+    "longitude": 27.7,
+    "Company": "Yara International ASA",
+    "Industry": "Agricultural Inputs",
+    "Ticker": "CHIX:YARO"
+  },
+  {
+    "commodity": "phosphate: apatite",
+    "location": "Siilinjarvi",
+    "latitude": 63.1,
+    "longitude": 27.7,
+    "Company": "Yara International ASA",
+    "Industry": "Agricultural Inputs",
+    "Ticker": "OSL:YAR"
+  },
+  {
+    "commodity": "phosphate: apatite",
+    "location": "Siilinjarvi",
+    "latitude": 63.1,
+    "longitude": 27.7,
+    "Company": "Yara International ASA",
+    "Industry": "Agricultural Inputs",
+    "Ticker": "OSTO:YARo"
+  },
+  {
+    "commodity": "phosphate: apatite",
+    "location": "Siilinjarvi",
+    "latitude": 63.1,
+    "longitude": 27.7,
+    "Company": "Yara International ASA",
+    "Industry": "Agricultural Inputs",
+    "Ticker": "OTCPK:YARIY"
+  },
+  {
+    "commodity": "phosphate: apatite",
+    "location": "Siilinjarvi",
+    "latitude": 63.1,
+    "longitude": 27.7,
+    "Company": "Yara International ASA",
+    "Industry": "Agricultural Inputs",
+    "Ticker": "OTCPK:YRAIF"
+  },
+  {
+    "commodity": "pozzolana",
+    "location": "Milos Island",
+    "latitude": 36.66,
+    "longitude": 24.36,
+    "Company": "Heracles General Cement Co SA",
+    "Industry": "Building Materials",
+    "Ticker": "LTS:0EOC"
+  },
+  {
+    "commodity": "pozzolana",
+    "location": "Milos Island",
+    "latitude": 36.66,
+    "longitude": 24.36,
+    "Company": "Heracles General Cement Co SA",
+    "Industry": "Building Materials",
+    "Ticker": "ATH:HRAK"
+  },
+  {
+    "commodity": "pumice",
+    "location": "Yali Island",
+    "latitude": 35.07,
+    "longitude": 25.03,
+    "Company": "Heracles General Cement Co SA",
+    "Industry": "Building Materials",
+    "Ticker": "LTS:0EOC"
+  },
+  {
+    "commodity": "pumice",
+    "location": "Yali Island",
+    "latitude": 35.07,
+    "longitude": 25.03,
+    "Company": "Heracles General Cement Co SA",
+    "Industry": "Building Materials",
+    "Ticker": "ATH:HRAK"
+  },
+  {
+    "commodity": "quartz",
+    "location": "Milos Island",
+    "latitude": 36.74,
+    "longitude": 24.5,
+    "Company": "Heracles General Cement Co SA",
+    "Industry": "Building Materials",
+    "Ticker": "LTS:0EOC"
+  },
+  {
+    "commodity": "quartz",
+    "location": "Milos Island",
+    "latitude": 36.74,
+    "longitude": 24.5,
+    "Company": "Heracles General Cement Co SA",
+    "Industry": "Building Materials",
+    "Ticker": "ATH:HRAK"
+  },
+  {
+    "commodity": "alumina",
+    "location": "San Ciprian, Lugo",
+    "latitude": 43.7,
+    "longitude": -7.47,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "ASX:AAI"
+  },
+  {
+    "commodity": "alumina",
+    "location": "San Ciprian, Lugo",
+    "latitude": 43.7,
+    "longitude": -7.47,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "FRA:ALU2"
+  },
+  {
+    "commodity": "alumina",
+    "location": "San Ciprian, Lugo",
+    "latitude": 43.7,
+    "longitude": -7.47,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "STU:ALU2"
+  },
+  {
+    "commodity": "alumina",
+    "location": "San Ciprian, Lugo",
+    "latitude": 43.7,
+    "longitude": -7.47,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "XTER:ALU2"
+  },
+  {
+    "commodity": "alumina",
+    "location": "San Ciprian, Lugo",
+    "latitude": 43.7,
+    "longitude": -7.47,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "LTS:0RJA"
+  },
+  {
+    "commodity": "alumina",
+    "location": "San Ciprian, Lugo",
+    "latitude": 43.7,
+    "longitude": -7.47,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "AMEX:ARNC.PR.PFD"
+  },
+  {
+    "commodity": "alumina",
+    "location": "San Ciprian, Lugo",
+    "latitude": 43.7,
+    "longitude": -7.47,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "NYSE:AAPRB.PFD"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "San Ciprian, Lugo",
+    "latitude": 43.7,
+    "longitude": -7.47,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "ASX:AAI"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "San Ciprian, Lugo",
+    "latitude": 43.7,
+    "longitude": -7.47,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "FRA:ALU2"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "San Ciprian, Lugo",
+    "latitude": 43.7,
+    "longitude": -7.47,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "STU:ALU2"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "San Ciprian, Lugo",
+    "latitude": 43.7,
+    "longitude": -7.47,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "XTER:ALU2"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "San Ciprian, Lugo",
+    "latitude": 43.7,
+    "longitude": -7.47,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "LTS:0RJA"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "San Ciprian, Lugo",
+    "latitude": 43.7,
+    "longitude": -7.47,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "AMEX:ARNC.PR.PFD"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "San Ciprian, Lugo",
+    "latitude": 43.7,
+    "longitude": -7.47,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "NYSE:AAPRB.PFD"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "Aviles",
+    "latitude": 43.58,
+    "longitude": -5.91,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "ASX:AAI"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "Aviles",
+    "latitude": 43.58,
+    "longitude": -5.91,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "FRA:ALU2"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "Aviles",
+    "latitude": 43.58,
+    "longitude": -5.91,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "STU:ALU2"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "Aviles",
+    "latitude": 43.58,
+    "longitude": -5.91,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "XTER:ALU2"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "Aviles",
+    "latitude": 43.58,
+    "longitude": -5.91,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "LTS:0RJA"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "Aviles",
+    "latitude": 43.58,
+    "longitude": -5.91,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "AMEX:ARNC.PR.PFD"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "Aviles",
+    "latitude": 43.58,
+    "longitude": -5.91,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "NYSE:AAPRB.PFD"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "La Coruna",
+    "latitude": 43.35,
+    "longitude": -8.44,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "ASX:AAI"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "La Coruna",
+    "latitude": 43.35,
+    "longitude": -8.44,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "FRA:ALU2"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "La Coruna",
+    "latitude": 43.35,
+    "longitude": -8.44,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "STU:ALU2"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "La Coruna",
+    "latitude": 43.35,
+    "longitude": -8.44,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "XTER:ALU2"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "La Coruna",
+    "latitude": 43.35,
+    "longitude": -8.44,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "LTS:0RJA"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "La Coruna",
+    "latitude": 43.35,
+    "longitude": -8.44,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "AMEX:ARNC.PR.PFD"
+  },
+  {
+    "commodity": "aluminum",
+    "location": "La Coruna",
+    "latitude": 43.35,
+    "longitude": -8.44,
+    "Company": "Alcoa Inc",
+    "Industry": "Aluminum",
+    "Ticker": "NYSE:AAPRB.PFD"
+  },
+  {
+    "commodity": "ferroalloys",
+    "location": "Rotherham, South Yorkshire, England",
+    "latitude": 53.42,
+    "longitude": -1.38,
+    "Company": "Advanced Metallurgical Group NV",
+    "Industry": "Other Industrial Metals & Mining",
+    "Ticker": "FRA:ADG"
+  },
+  {
+    "commodity": "ferroalloys",
+    "location": "Rotherham, South Yorkshire, England",
+    "latitude": 53.42,
+    "longitude": -1.38,
+    "Company": "Advanced Metallurgical Group NV",
+    "Industry": "Other Industrial Metals & Mining",
+    "Ticker": "STU:ADG"
+  },
+  {
+    "commodity": "ferroalloys",
+    "location": "Rotherham, South Yorkshire, England",
+    "latitude": 53.42,
+    "longitude": -1.38,
+    "Company": "Advanced Metallurgical Group NV",
+    "Industry": "Other Industrial Metals & Mining",
+    "Ticker": "XTER:ADG"
+  },
+  {
+    "commodity": "ferroalloys",
+    "location": "Rotherham, South Yorkshire, England",
+    "latitude": 53.42,
+    "longitude": -1.38,
+    "Company": "Advanced Metallurgical Group NV",
+    "Industry": "Other Industrial Metals & Mining",
+    "Ticker": "LTS:0LO9"
+  },
+  {
+    "commodity": "ferroalloys",
+    "location": "Rotherham, South Yorkshire, England",
+    "latitude": 53.42,
+    "longitude": -1.38,
+    "Company": "Advanced Metallurgical Group NV",
+    "Industry": "Other Industrial Metals & Mining",
+    "Ticker": "CHIX:AMGA"
+  },
+  {
+    "commodity": "ferroalloys",
+    "location": "Rotherham, South Yorkshire, England",
+    "latitude": 53.42,
+    "longitude": -1.38,
+    "Company": "Advanced Metallurgical Group NV",
+    "Industry": "Other Industrial Metals & Mining",
+    "Ticker": "XAMS:AMG"
+  },
+  {
+    "commodity": "ferroalloys",
+    "location": "Rotherham, South Yorkshire, England",
+    "latitude": 53.42,
+    "longitude": -1.38,
+    "Company": "Advanced Metallurgical Group NV",
+    "Industry": "Other Industrial Metals & Mining",
+    "Ticker": "OTCPK:AMVMF"
+  }
+]
