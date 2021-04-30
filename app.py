@@ -1,14 +1,10 @@
-%matplotlib inline
-from matplotlib import style
-style.use('fivethirtyeight')
-import matplotlib.pyplot as plt
-
+import json
 import sqlalchemy as db
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 
 import datetime as dt
 
@@ -24,16 +20,7 @@ commodities_tb = db.Table('commodities', metadata, autoload=True, autoload_with=
 query = db.select([commodities_tb])
 ResultProxy = connection.execute(query)
 ResultSet = ResultProxy.fetchall()
-print(ResultSet)
-# reflect an existing database into a new model
-# Base = automap_base()
-# reflect the tables
-# Base.prepare(engine, reflect=True)
 
-# Save reference to the table
-# commodities = Base.classes.commodities
-# ev_population = Base.classes.ev_population
-# print(Base.classes.keys)
 #################################################
 # Flask Setup
 #################################################
@@ -44,17 +31,30 @@ app = Flask(__name__)
 # Flask Routes
 ##################################
 
-# @app.route("/")
-# def welcome():
-#     """List all available api routes."""
-#     return (
-#         f"Available Routes:<br/>"
-#         f"/api/v1.0/precipitation<br/>"
-#         f"/api/v1.0/stations<br/>"
-#         f"/api/v1.0/tobs<br/>"
-#         f"/api/v1.0/<start><br/>"
-#         f"/api/v1.0/<start>/<end><br/>"
-#     )
+@app.route("/")
+def generate():
+    """List all available api routes."""
+    dataset2 = "The future of green economy"
+    return render_template('index.html', title=dataset2, data=ResultSet)
+
+@app.route("/get_data")
+def query_db():
+    query = db.select([commodities_tb])
+    ResultProxy = connection.execute(query)
+    ResultSet = ResultProxy.fetchall()
+    # result_dict = {}
+    # for position, value in enumerate(ResultSet):
+    #     result_dict.update({str(position):value})
+    # query_result = json.dumps(ResultSet[0])
+
+    # print(query_result)
+
+    # print(result_dict)
+    # return query_result  
+    return jsonify({'output': [dict(data) for data in ResultSet]})
+
+if __name__ == "__main__":
+    app.run(debug=True)
 
 # @app.route("/api/v1.0/precipitation")
 # def precipitation():
