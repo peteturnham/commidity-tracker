@@ -4,7 +4,7 @@ body {
 }
 
 #mapid {
-  width: 50px;
+  width: 100px;
   height:500px;
   min-height: 100%;
   min-width: 100%;
@@ -45,3 +45,47 @@ body {
   background-size: 18px;
   background-color: rgba(255, 255, 255, 1);
 }
+.navbar{
+  margin-bottom: 50px;
+}
+.navbar-brand {
+  color: white;
+  
+  
+}
+.nav-link {
+  color: gray;
+}
+.title h1{
+  color:blanchedalmond;
+  font-weight: bold;
+  font-size: xx-large;
+  margin-bottom:20px;
+  text-align: center;
+
+
+}
+
+p{
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  padding: 30px;
+
+}
+img{
+  width: 100px;
+}
+figcaption{
+  font-weight: bold;
+  
+
+}
+.carousel {
+  position: relative;
+  top: -100px;
+
+} 
+#multiline{
+  width: 1200px;
+}  
