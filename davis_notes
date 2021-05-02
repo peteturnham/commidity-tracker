@@ -1,0 +1,36 @@
+// // Build Map
+d3.json(link).then(function(data) {
+    var groupedData = d3.nest()
+    .key(function (d) {return d.commodity;})
+    .entries(data);
+    console.log("ArrayData :", groupedData);
+    console.log("ArrayData[0] :", groupedData[0]);
+    console.log("ArrayData[1] :", groupedData[1]);
+
+    for (var i = 0; i < groupedData.length; i++) {
+        console.log(groupedData[0].values)
+        for (var j = 0; j < groupedData[i].values.length; j++) {
+          console.log(groupedData[0].values[0])
+        }
+
+        
+    // Create variables for each commodity layer 
+      var aluminum = L.marker([groupedData[0].values[i].latitude, groupedData.values[i].longitude]).bindPopup("Aluminum")
+          // coal = L.marker([data[i].latitude, data[i].longitude]).bindPopup("Coal"),
+          // cobalt = L.marker([data[i].latitude, data[i].longitude]).bindPopup("Cobalt"),
+          // copper = L.marker([data[i].latitude, data[i].longitude]).bindPopup("Copper"),
+          // nickel = L.marker([data[i].latitude, data[i].longitude]).bindPopup("Nickel"),
+          // lithium = L.marker([data[i].latitude, data[i].longitude]).bindPopup("Lithium")
+    
+    
+    // Create an overlay for layer group
+      var overlayMaps = {
+        "Aluminum": aluminum,
+        "Coal": coal,
+        "Cobalt": cobalt,
+        "Copper": copper,
+        "Nickel": nickel,
+        "Lithium": lithium
+      };
+      // Add control layer to map
+      L.control.layers(overlayMaps).addTo(myMap);
