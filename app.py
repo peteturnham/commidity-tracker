@@ -46,11 +46,6 @@ def query_db():
     return jsonify({'output': [dict(data) for data in ResultSet]})
 
 
-@app.route("/group")
-def group():
-    com = request.args.get('commodities')
-    return render_template('com')
-
 if __name__ == "__main__":
     app.run(debug=True)
 
