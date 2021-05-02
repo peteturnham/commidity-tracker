@@ -7,19 +7,30 @@
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
 
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>MinTrak</title>
+  <title>The future of green economy</title>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lux/bootstrap.min.css" >
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <title>MinTrak</title>
+  <title>Leaflet Step-1</title>
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin="" />
-
+<!-- google fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=AlfaSlabOne">
   <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <style>
+    .header h1{
+  font-family: "Alfa Slab One";
+}
+</style>
+
 </head>
+
+
 
 <body>
   
@@ -29,52 +40,142 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(https://static4.arrow.com/-/media/arrow/images/1400-x-1400/arrow-211_image-1.jpg?mw=734&hash=189BAA6D18ED2ECA5C1D297F5F141271F82E1A37)">
-        
-        <h1> MinTrak </h1>
-        <p>Commodity Insights for EV Sustainability.</p>
+      <!-- <div class="col-md-12 jumbotron text-center" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(https://static4.arrow.com/-/media/arrow/images/1400-x-1400/arrow-211_image-1.jpg?mw=734&hash=189BAA6D18ED2ECA5C1D297F5F141271F82E1A37)"> -->
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 400"><defs><style>.cls-1{fill:#231f20;}.cls-2,.cls-3{stroke:#000;stroke-miterlimit:10;stroke-width:3px;}.cls-3,.cls-4{fill:#fff;}</style></defs><rect class="cls-1" width="1900" height="400"/><path class="cls-2" d="M843.82,300.08c-6.6,0-13.33-.8-19.79.15-19.26,2.86-35.29-4.38-50.39-15a16.39,16.39,0,0,1-4.59-5.07q-20.2-34.76-40.14-69.67c-1.38-2.44-1.88-5.51-2.25-8.36-2.59-19.6,2.56-36.88,13.76-53.3,10.15-14.9,18.13-31.27,27.48-46.74,2.18-3.6,5.76-6.53,9.14-9.19,14-11,29.94-14.26,47.71-13.14,18.68,1.19,37.49,0,56.23.45,5,.12,10.18,2,14.94,3.88,15.65,6.29,26,17.68,33.57,32.84,8.85,17.66,19.72,34.29,29.4,51.54,1.77,3.15,2.38,7.09,2.9,10.75,2.67,19-2.73,35.56-13.52,51.41-10.15,14.91-18.12,31.28-27.52,46.72-2.4,3.94-6.28,7.19-10,10.09-13.68,10.64-29.15,14.79-46.49,12.73C857.54,299.42,850.64,300.08,843.82,300.08Zm-70-72.44C795.7,215,816.9,202.77,838,190.36c1.65-1,3.44-3.4,3.46-5.17q.35-35.48,0-70.94c0-1.56-2.2-4.25-3.66-4.46q-29.34-4.35-58.79-7.9c-2.06-.24-5.44,1.29-6.47,3q-19.37,32.67-38.06,65.71c-.85,1.49-1.17,4.42-.29,5.58C747.12,193.32,760.33,210.25,773.81,227.64Zm140.67,0c13-16.77,25.58-33.12,38.41-49.25,2.53-3.18,2.69-5.43.63-8.92-12.1-20.49-24.2-41-35.71-61.81-3.07-5.56-6.46-6.59-12.14-5.73-18,2.74-36.16,5.16-54.27,7.51-3.35.44-4.75,1.52-4.73,5.13.13,23.41,0,46.82.2,70.22a7.44,7.44,0,0,0,3.06,5.38C871.15,202.67,892.52,214.94,914.48,227.64Zm-2.69,4.6c-22.1-12.76-43.4-25.19-64.91-37.25-1.77-1-5.33-.19-7.38,1-19.45,11-38.75,22.25-58.08,33.45-1.61.94-3.13,2-4.85,3.14,8.1,19.82,16,39.31,24.12,58.68.69,1.64,3.18,3.57,4.85,3.59q38.67.33,77.36,0c1.47,0,3.77-1.27,4.29-2.54C895.45,272.54,903.48,252.67,911.79,232.24Zm-18.12,58.63c11.57-5.88,20.93-11.16,26.63-22.45a539,539,0,0,1,30.67-53c6.76-10.28,5.72-20.64,5.65-33.23-10.12,13-19.26,24.67-28.27,36.41-4,5.22-8.82,10.15-11.44,16C908.89,252.66,901.76,271.1,893.67,290.87ZM731.84,182.24c-.08,12.56-1.05,22.87,5.61,33.18,12.1,18.72,23,38.28,33.54,57.91,5.16,9.57,14.54,11.74,22.6,16.54-4.89-13.43-10.57-26.25-15.4-39.38a110.19,110.19,0,0,0-18.83-33C750.18,206.51,741.66,194.91,731.84,182.24Zm51.27-86.55a237.74,237.74,0,0,0,121.45.14c-10.23-8.31-16.45-10.64-28.86-10.64-20.66,0-41.37.85-62-.32C801.25,84.17,792.45,90.08,783.11,95.69Z"/><path class="cls-3" d="M773.81,227.64c-13.48-17.39-26.69-34.32-39.66-51.43-.88-1.16-.56-4.09.29-5.58q18.78-33,38.06-65.71c1-1.74,4.41-3.27,6.47-3q29.44,3.51,58.79,7.9c1.46.21,3.64,2.9,3.66,4.46q.35,35.46,0,70.94c0,1.77-1.81,4.2-3.46,5.17C816.9,202.77,795.7,215,773.81,227.64Z"/><path class="cls-3" d="M914.48,227.64c-22-12.7-43.33-25-64.55-37.47a7.44,7.44,0,0,1-3.06-5.38c-.2-23.4-.07-46.81-.2-70.22,0-3.61,1.38-4.69,4.73-5.13,18.11-2.35,36.22-4.77,54.27-7.51,5.68-.86,9.07.17,12.14,5.73,11.51,20.82,23.61,41.32,35.71,61.81,2.06,3.49,1.9,5.74-.63,8.92C940.06,194.52,927.51,210.87,914.48,227.64Z"/><path class="cls-3" d="M911.79,232.24c-8.31,20.43-16.34,40.3-24.6,60.07-.52,1.27-2.82,2.54-4.29,2.54q-38.68.24-77.36,0c-1.67,0-4.16-1.95-4.85-3.59-8.15-19.37-16-38.86-24.12-58.68,1.72-1.11,3.24-2.2,4.85-3.14C800.75,218.2,820.05,207,839.5,196c2-1.15,5.61-1.95,7.38-1C868.39,207.05,889.69,219.48,911.79,232.24Z"/><path class="cls-3" d="M893.67,290.87c8.09-19.77,15.22-38.21,23.24-56.25,2.62-5.87,7.44-10.8,11.44-16,9-11.74,18.15-23.39,28.27-36.41.07,12.59,1.11,22.95-5.65,33.23a539,539,0,0,0-30.67,53C914.6,279.71,905.24,285,893.67,290.87Z"/><path class="cls-3" d="M731.84,182.24c9.82,12.67,18.34,24.27,27.52,35.3a110.19,110.19,0,0,1,18.83,33c4.83,13.13,10.51,25.95,15.4,39.38-8.06-4.8-17.44-7-22.6-16.54-10.58-19.63-21.44-39.19-33.54-57.91C730.79,205.11,731.76,194.8,731.84,182.24Z"/><path class="cls-3" d="M783.11,95.69c9.34-5.61,18.14-11.52,30.62-10.82,20.6,1.17,41.31.32,62,.32,12.41,0,18.63,2.33,28.86,10.64A237.74,237.74,0,0,1,783.11,95.69Z"/><path class="cls-4" d="M157.91,72.52l81.39.64,10.06,131.18L301.85,73.66l81.34.64L348.14,289.48l-50.68-.41L324.18,125,258.4,288.77l-45.87-.37L200.27,124,173.55,288.1l-50.69-.41Z"/><path class="cls-4" d="M403.13,74.63l62,.49-35,215.18-62-.49Z"/><path class="cls-4" d="M485,74.47l57.79.46,56,119.64,19.39-119L676.5,76l-35,215.18-58.33-.47L527.36,172,508.11,290.11l-58.19-.46Z"/><path class="cls-4" d="M1007.52,79,1195,80l-8.62,53.67-62.91-.5-26.3,162.2-61.67-.49,26.3-162.2-62.91-.5Z"/><path class="cls-4" d="M1159,294.1,1194.12,80l103.37.81q28.76.22,43.08,5.6a37.87,37.87,0,0,1,21.31,19.69q7,14.31,3.62,34.76-2.91,17.82-12.16,30.69a72.61,72.61,0,0,1-23,20.8q-8.79,5.06-23.17,8.3,10.42,4,14.85,8,3,2.67,8.07,11.34t6.51,13.37l19.86,62.27-70.08-.55-22.42-65.69q-4.22-12.75-8.52-16.59a21.72,21.72,0,0,0-14.38-5.08l-5.48-.05-14.25,86.9Zm83.19-126.86,26.15.21q4.23,0,16.9-2.8a19.87,19.87,0,0,0,11.17-6.64,24.18,24.18,0,0,0,5.94-12.38q1.7-10.37-3.55-16t-22.23-5.73l-27.25-.21Z"/><path class="cls-4" d="M1505.17,261.26l-70.26-.55-15.55,35.44-63.19-.5L1466.49,81.07l67.51.53,40.21,215.77-64.8-.51Zm-5.26-46.63-9.51-77.53-34.47,77.18Z"/><path class="cls-4" d="M1629.2,82.35l61.89.49-13.24,81.32,78.07-80.8,82.31.65-86.32,80.64,54.55,134.56-76.21-.6-27.82-88.83-37.83,35.73L1656.05,298l-61.89-.49Z"/></svg>
+        <br>
+        <div class="col-md-6">
+          <div class="header">
+        <h1>About MinTrak</h1>
+        <p>We are on a mission to acurately track the supply chain of minerals in the world. Why? With the world turning to battery technology, our first thought was to provide insight for sustainability. Minerals like Lithium, Cobalt and Nickel are in high demand because of lithium-ion batteries but we have to know if we can sustain the levels of production required to power our devices, homes, and cars. That is why we have built this dashboard to track mineral commodities and map their trading value and track the demand of these resources. We are currently underway in gathering data to reveal potential bottlenecks in supply, regulated and non regulated mining operations, and future value prices for companies.</p>
       </div>
+      </div>
+      
+    
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/Aluminium.jpeg" class="d-block w-100" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Aluminium</h5>
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Coal.jpeg" class="d-block w-100" alt="second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Coal</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Cobalt.jpeg" class="d-block w-100" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Cobalt</h5>
+          </div>
+        </div>
+      </div>
+        <div class="carousel-item">
+          <img src="Images/Nickel.jpeg" class="d-block w-100" alt="sixth slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Nickel</h5>
+          </div>
+        </div>
+      </div>
+        
+        <div class="carousel-item">
+          <img src="Images/Copper.png" class="d-block w-100" alt="Fourth slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Copper</h5> 
+          </div>
+        <div class="carousel-item">
+          <img src="Images/Lithium.jpeg" class="d-block w-100" alt="Fith slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Lithium</h5>
+          </div>
+        </div>
+        
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
+  </div>
+  <br>
+    <br>
+    <div class="header">
+    <h1>Use the interactive charts below to explore the dataset</h1>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class=" title ">
+        <h1>Areas with Mining Activity</h1>
+      <div id="mapid"></div>
+    </div>
+    </div>
+  </div>
+  <br>
+
+  
+    <div class="com">
+    <h1>Commodity Futures</h1>
+  </div>
+<br>
+    <!-- graph block -->
     <div class="row">
+      
       <div class="col-md-2">
+        
+        <!-- dropdown menu -->
         <div class="well">
           <h5>Commodity</h5>
           <select id="selDataset" >
             <option id= option value= "default">Pick a Commodity</option>
           </select>
         </div>
+
         <div class="panel panel-primary">
+
           <div class="panel-heading">
             <h3 class="panel-title">Company Information</h3>
-          </div>
+          </div> 
+
           <div id="sample-metadata" class="panel-body">
                <p></p>
           </div>
         </div>
       </div>
-      
-      <div class="col-md-5">
-        <div id="bar"></div>
-      </div>
-      <div class="col-md-12">
+    
+<!-- chart block -->
+      <div class="col-md-10">
         <canvas id="chart"></canvas>
       </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="mapid"></div>
-      </div>
-    </div>
 
-      <div class="col-md-5">
-        <div id="gauge"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="bubble"></div>
+      
+      <br>
+      <!-- <div class="row">
+        <div class="col-md-12">
+          <div class="line"> -->
+      <div class="line">
+        <div class="col-md-12">
+          <div id="multiline"></div>
+        </div>
+      </div>  
       </div>
     </div>
   </div>
+
+
   
 
   <!-- Leaflet JS -->
@@ -83,6 +184,9 @@
   <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
     integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
     crossorigin=""></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
   <!-- D3 JavaScript -->
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <!-- API key -->
@@ -94,3 +198,4 @@
 </body>
 
 </html>
+
